@@ -1,15 +1,15 @@
 {
-    "name": "riekz",
-    "description": "riekz Is Telegram Advanced Bot To Mention All Members In Group.",
+    "name": "ᴘʟᴀᴛʏᴘᴜs ᴍᴇɴᴛɪᴏɴ",
+    "description": "huum.",
     "logo": "https://telegra.ph/file/cb76d7f5dae14ec1e11c7.jpg",
     "env": {
-        "TOKEN": {
+        "TOKEN": {8111902125:AAEuGtTmrZU6oJflszkL0Fsoq7BoTRMd-_E
             "description": "Enter bot token."
         },
-        "APP_ID": {
+        "APP_ID": {27917752
             "description": "Get this value from my.telegram.org! Please do not steal."
         },
-        "API_HASH": {
+        "API_HASH": {bf6436f671e5363ed68edc1bb293d6d3
             "description": "Get this value from my.telegram.org! Please do not steal."
         }
     },
