@@ -58,7 +58,7 @@ async def start(event):
 async def help(event):
     chat_id = event.chat_id
     if not event.is_private:
-        return await event.respond("ʜᴀɪɪɪ sᴛᴀʀᴛ ᴀᴋᴜ ᴅᴜʟᴜ ᴅɪ ᴘᴍ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ᴄᴏᴍᴍᴀɴᴅ ɪɴɪ 🥺")
+        return await event.respond("ʜᴀɪ sᴛᴀʀᴛ ᴀᴋᴜ ʟᴇᴡᴀᴛ ʀᴄ ᴅᴜʟᴜ ʙɪᴀʀ ʙɪsᴀ ᴘᴀᴋᴀɪ ᴄᴏᴍᴍᴀɴᴅ ɪɴɪ 🥺")
     helptext = "✪ ᴍᴇɴᴜ ᴏғ ᴘʟᴀᴛʏᴘᴜs ᴍᴇɴᴛɪᴏɴ\n\n✪ ᴄᴏᴍᴍᴀɴᴅ: /tagall\n✪ ᴄᴏᴍᴍᴀɴᴅ: /cancel ᴍᴇᴍʙᴇʀʜᴇɴᴛɪᴋᴀɴ ᴛᴀɢᴀʟʟ ʏᴀɴɢ ʙᴇʀᴊᴀʟᴀɴ.\n✪ ᴄᴏᴍᴍᴀɴᴅ /admin ᴍᴇᴍᴜʟᴀɪ ᴛᴀɢ ᴀᴅᴍɪɴ\n✪ ᴋᴀᴍᴜ ʙɪsᴀ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ᴄᴏᴍᴍᴀɴᴅ ɪɴɪ ᴅᴇɴɢᴀɴ ᴛᴇxᴛ ʏᴀɴɢ ɴᴀɴᴛɪ ᴅɪɢᴜɴᴀᴋᴀɴ ᴜɴᴛᴜᴋ ᴍᴇᴍᴜʟᴀɪ ᴍᴇɴᴛɪᴏɴ.\n✪ `ᴇxᴀᴍᴘʟᴇ : /ᴛᴀɢᴀʟʟ ʀɪᴄᴋ x ᴋᴏᴋᴏ!`\n✪ ᴋᴀᴍᴜ ᴊᴜɢᴀ ʙɪsᴀ ᴍᴇʀᴇᴘʟʏ ᴋᴇ ᴘᴇsᴀɴ ʏᴀɴɢ ɪɴɢɪɴ ᴋᴀᴍᴜ ɢᴜɴᴀᴋᴀɴ ᴜɴᴛᴜᴋ ᴍᴇɴᴛɪᴏɴ."
     await event.reply(
         helptext,
