@@ -32,24 +32,23 @@ spam_chats = []
 async def start(event):
     chat_id = event.chat_id
     if not event.is_private:
-        return await event.respond("ɪ ᴀᴍ ᴀʟɪᴠᴇ 🥺")
+        return await event.respond("ᴀᴋᴜ ʜɪᴅᴜᴘ ᴋᴀᴋ 🥺")
     await event.reply(
-        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ ɪ ᴀᴍ ᴀʟᴇxᴀ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴛʜᴇ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs ɪɴ ᴛᴇʟᴇɢʀᴀᴍ\n✪ ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ ʀᴜɴ /help..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴏᴡɴᴇʀ    : [ᴀsᴀᴅ ᴀʟɪ](https://t.me/Dr_Asad_Ali)\n┣★ ᴜᴘᴅᴀᴛᴇs › : [ᴀʟᴇxᴀ ʜᴇʟᴘ](https://t.me/Alexa_BotUpdates)┓\n┣★ ʀᴇᴘᴏ › : [ᴀʟᴇxᴀ ʀᴇᴘᴏ](https://github.com/TheTeamAlexa/MentionBot)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ\nᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/Jankari_Ki_Duniya) ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━",
+        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ ʜᴀʟᴏ ᴀᴋᴜᴜᴜ ᴘʟᴀᴛʏᴘᴜs, sᴇʙᴜᴀʜ ʙᴏᴛ ʏᴀɴɢ ᴅɪɢᴜɴᴀᴋᴀɴ ᴜɴᴛᴜᴋ ᴍᴇɴᴛɪᴏɴ sᴇᴍᴜᴀ ᴍᴇᴍʙᴇʀ ʏᴀɴɢ ᴀᴅᴀ ᴅɪ ɢʀᴜʙ ᴋᴀʟɪᴀɴɴɴɴ\n✪ ᴀʏᴏ ᴍᴜʟᴀɪɪɪɪɪ /help..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ʙʀᴏ     : [ᴄʜᴀʟᴏɴᴅʀᴀ∰](https://t.me/itschalondra)\n┣★ ʙʀᴏ   : [ᴋᴏᴋᴏ](https://t.me/urrhellgod)┓\n┣★ ᴜᴘᴅᴀᴛᴇ › : [ᴜᴘᴅᴀᴛᴇ](https://t.me/nothumansupport)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 ᴋᴀʟᴏ ᴋᴀᴍᴜ ᴀᴅᴀ ᴘᴇʀᴛᴀɴʏᴀᴀɴ\nᴅᴍ ᴋᴇ  [ɴᴏᴛʜɪɴɢ](https://t.me/itschalondra) ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━",
         link_preview=False,
         buttons=(
             [
                 Button.url(
-                    "☀︎︎️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ☀︎︎",
+                    "☀︎︎️ ᴛᴀᴍʙᴀʜᴋᴀɴ ᴀᴋᴜ ᴋᴇ ɢʀᴜᴘ ᴋᴀᴍᴜ ☀︎︎",
                     "https://t.me/plyatypusbot?startgroup=true",
                 ),
             ],
             [
-                Button.url("☀︎︎ ɢʀᴏᴜᴘ ☀︎︎︎", "https://t.me/Shayri_Music_Lovers"),
                 Button.url("☀︎︎ ᴄʜᴀɴɴᴇʟ ☀︎︎", "https://t.me/threehumanbodies"),
             ],
             [
-                Button.url("☀︎︎ ʙʀᴏ ☀︎︎️️", "https://t.me/Kattai_massom"),
-                Button.url("☀︎︎ ᴋɪɴɢ ☀︎︎︎", "https://t.me/Jankari_Ki_Duniya"),
+                Button.url("☀︎︎ ʙʀᴏ ☀︎︎️️", "https://t.me/itschalondra"),
+                Button.url("☀︎︎ ʙʀᴏ ☀︎︎︎", "https://t.me/urrhellgod"),
             ],
         ),
     )
@@ -60,7 +59,7 @@ async def help(event):
     chat_id = event.chat_id
     if not event.is_private:
         return await event.respond("ʜᴀɪɪɪ sᴛᴀʀᴛ ᴀᴋᴜ ᴅᴜʟᴜ ᴅɪ ᴘᴍ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ᴄᴏᴍᴍᴀɴᴅ ɪɴɪ 🥺")
-    helptext = "✪ ᴍᴇɴᴜ ᴏғ ᴘʟᴀᴛʏᴘᴜs ᴍᴇɴᴛɪᴏɴ\n\n✪ ᴄᴏᴍᴍᴀɴᴅ: /tagall\n✪ ᴄᴏᴍᴍᴀɴᴅ: /cancel ᴍᴇᴍʙᴇʀʜᴇɴᴛɪᴋᴀɴ ᴛᴀɢᴀʟʟ ʏᴀɴɢ ʙᴇʀᴊᴀʟᴀɴ.\n✪ ᴄᴏᴍᴍᴀɴᴅ /admin ᴍᴇᴍᴜʟᴀɪ ᴛᴀɢ ᴀᴅᴍɪɴ\n✪ ᴋᴀᴍᴜ ʙɪsᴀ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ᴄᴏᴍᴍᴀɴᴅ ɪɴɪ ᴅᴇɴɢᴀɴ ᴛᴇxᴛ ʏᴀɴɢ ɴᴀɴᴛɪ ᴅɪɢᴜɴᴀᴋᴀɴ ᴜɴᴛᴜᴋ ᴍᴇᴍᴜʟᴀɪ ᴍᴇɴᴛɪᴏɴ.\n✪ `ᴇxᴀᴍᴘʟᴇ : /ᴍᴇɴᴛɪᴏɴᴀʟʟ ʀɪᴄᴋ x ᴋᴏᴋᴏ ʟᴜᴄᴜ!`\n✪ ᴋᴀᴍᴜ ᴊᴜɢᴀ ʙɪsᴀ ᴍᴇʀᴇᴘʟʏ ᴋᴇ ᴘᴇsᴀɴ ʏᴀɴɢ ɪɴɢɪɴ ᴋᴀᴍᴜ ɢᴜɴᴀᴋᴀɴ ᴜɴᴛᴜᴋ ᴍᴇɴᴛɪᴏɴ."
+    helptext = "✪ ᴍᴇɴᴜ ᴏғ ᴘʟᴀᴛʏᴘᴜs ᴍᴇɴᴛɪᴏɴ\n\n✪ ᴄᴏᴍᴍᴀɴᴅ: /tagall\n✪ ᴄᴏᴍᴍᴀɴᴅ: /cancel ᴍᴇᴍʙᴇʀʜᴇɴᴛɪᴋᴀɴ ᴛᴀɢᴀʟʟ ʏᴀɴɢ ʙᴇʀᴊᴀʟᴀɴ.\n✪ ᴄᴏᴍᴍᴀɴᴅ /admin ᴍᴇᴍᴜʟᴀɪ ᴛᴀɢ ᴀᴅᴍɪɴ\n✪ ᴋᴀᴍᴜ ʙɪsᴀ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ᴄᴏᴍᴍᴀɴᴅ ɪɴɪ ᴅᴇɴɢᴀɴ ᴛᴇxᴛ ʏᴀɴɢ ɴᴀɴᴛɪ ᴅɪɢᴜɴᴀᴋᴀɴ ᴜɴᴛᴜᴋ ᴍᴇᴍᴜʟᴀɪ ᴍᴇɴᴛɪᴏɴ.\n✪ `ᴇxᴀᴍᴘʟᴇ : /ᴛᴀɢᴀʟʟ ʀɪᴄᴋ x ᴋᴏᴋᴏ!`\n✪ ᴋᴀᴍᴜ ᴊᴜɢᴀ ʙɪsᴀ ᴍᴇʀᴇᴘʟʏ ᴋᴇ ᴘᴇsᴀɴ ʏᴀɴɢ ɪɴɢɪɴ ᴋᴀᴍᴜ ɢᴜɴᴀᴋᴀɴ ᴜɴᴛᴜᴋ ᴍᴇɴᴛɪᴏɴ."
     await event.reply(
         helptext,
         link_preview=False,
@@ -77,20 +76,20 @@ async def help(event):
     chat_id = event.chat_id
     if not event.is_private:
         return await event.respond("ʜᴀɪ sᴛᴀʀᴛ ᴀᴋᴜ ʟᴇᴡᴀᴛ ʀᴄ ᴅᴜʟᴜ ʙɪᴀʀ ʙɪsᴀ ᴘᴀᴋᴀɪ ᴄᴏᴍᴍᴀɴᴅ ɪɴɪ 🥺")
-    helptext = "✪ ᴏɴᴡᴇʀ ᴍᴇɴᴜ ᴜɴᴛᴜᴋ ᴘʟᴀᴛʏᴘᴜs ᴍᴇɴᴛɪᴏɴ\n\n✪ ғᴏᴜɴᴅᴇʀ [ᴄʜᴀʟᴏɴᴅʀᴀ∰](https://t.me/itschalondra)\n✪ ᴏғғɪᴄɪᴀʟ ᴋʜᴜsᴜs ᴜɴғᴜᴋ ғᴇᴄʜᴋʟ\n✪ ᴏᴡɴᴇʀ [ᴋᴏᴋᴏ ᴋᴏɴᴛᴏʟ](https://t.me/urrhellgod)\n✪ ғᴜᴛᴜʀᴇ ᴀɴᴇsᴛʜᴇᴛɪᴄ."
+    helptext = "✪ ᴏɴᴡᴇʀ ᴍᴇɴᴜ ᴜɴᴛᴜᴋ ᴘʟᴀᴛʏᴘᴜs ᴍᴇɴᴛɪᴏɴ\n\n✪ ʙʀᴏ [ᴄʜᴀʟᴏɴᴅʀᴀ∰](https://t.me/itschalondra)\n✪ ᴏғғɪᴄɪᴀʟ ᴋʜᴜsᴜs ᴜɴғᴜᴋ ғᴇᴄʜᴋʟ\n✪ ʙʀᴏ [ᴋᴏᴋᴏ](https://t.me/urrhellgod)\n✪ ғᴜᴛᴜʀᴇ ᴀɴᴇsᴛʜᴇᴛɪᴄ."
     await event.reply(
         helptext,
         link_preview=False,
         buttons=(
             [
-                Button.url("☀︎︎ ғᴏᴜɴᴅᴇʀ", "https://t.me/itschalondra"),
-                Button.url("ᴏᴡɴᴇʀ ☀︎︎", "https://t.me/urrhellgod"),
+                Button.url("☀︎︎ ʙʀᴏ", "https://t.me/itschalondra"),
+                Button.url("ʙʀᴏ ☀︎︎", "https://t.me/urrhellgod"),
             ]
         ),
     )
 
 
-@client.on(events.NewMessage(pattern="^/tagall ?(.*)"))
+@client.on(events.NewMessage(pattern="^/tagall|/utag|.utag|.tagall ?(.*)"))
 async def mentionall(event):
     chat_id = event.chat_id
     if event.is_private:
@@ -155,7 +154,7 @@ async def mentionall(event):
 async def _(event):
     chat_id = event.chat_id
     if event.is_private:
-        return await event.respond("ᴍᴀᴀғ ᴋᴀᴍᴜ ʙɪsᴀ ᴘᴀᴋᴀɪ ᴀᴋᴜ ᴋᴀʟᴏ ᴋᴀᴍᴜ ᴀᴅᴍɪɴ")
+        return await event.respond("ᴍᴀᴀғ, ᴋᴀᴍᴜ ʙɪsᴀ ᴘᴀᴋᴀɪ ᴀᴋᴜ ᴋᴀʟᴏ ᴋᴀᴍᴜ ᴀᴅᴍɪɴ")
 
     is_admin = False
     try:
